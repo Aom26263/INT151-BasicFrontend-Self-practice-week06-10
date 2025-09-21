@@ -1,0 +1,4 @@
+week06
+- เรียนเรื่อง higher order function คือ function ที่ทำงานกับ function อื่นได้ รับฟังก์ชันหนึ่งเป็น argument (input) คืนค่า (return) ฟังก์ชันอีกตัวออกมาเป็น output
+function Scope function จะเห็นตัวเเปรทุกตัวในชั้นตัวเองจนถึง global scope หรือ function นอกสุด เเต่ไม่เห็นด้านในที่ลึกเข้าไป ถ้ามันเลือกตัวเเปรจะเลือกของมันเองก่อน
+Closure คือ function ที่จดจำตัวแปรจาก scope ภายนอกของมัน แม้ว่าฟังก์ชันนั้นจะถูกเรียกใช้จากภายนอก scope ก็ตาม
